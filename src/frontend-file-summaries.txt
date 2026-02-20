@@ -1,0 +1,20 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, theme provider, and all route definitions including character creation, game world, quests, guilds, crafting, marketplace, and store pages.",
+  "frontend/src/components/Layout.tsx": "Root layout component with fantasy RPG themed header, navigation menu, authentication button, footer with attribution, and profile setup modal integration.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile creation that prompts authenticated users to enter their name, now correctly using undefined instead of null for optional email field.",
+  "frontend/src/pages/HomePage.tsx": "Landing page with hero section featuring forest background, call-to-action buttons for character creation and game entry, and feature cards showcasing combat, quests, and multiplayer.",
+  "frontend/src/pages/CharacterCreationPage.tsx": "Character creation interface with race selection (Human, Elf, Dwarf), class selection (Warrior, Mage, Ranger), appearance customization, and backend integration for character persistence.",
+  "frontend/src/pages/GamePage.tsx": "3D game world page using React Three Fiber with Canvas, lighting, environment, and World3D component rendering the explorable realm.",
+  "frontend/src/pages/QuestsPage.tsx": "Quest log interface with tabbed view for main and side quests, quest completion functionality, and reward display.",
+  "frontend/src/pages/GuildsPage.tsx": "Guild management page with guild creation dialog, guild browser showing all available guilds, and join guild functionality.",
+  "frontend/src/pages/CraftingPage.tsx": "Crafting station interface displaying player resources, available recipes with material requirements, and crafting execution with inventory management, now with proper TypeScript types for partial recipe materials.",
+  "frontend/src/pages/MarketplacePage.tsx": "Player marketplace with item listings, search functionality, purchase interface, and transaction history display.",
+  "frontend/src/pages/StorePage.tsx": "Premium store page displaying cosmetic items, battle passes, and premium membership with Stripe checkout integration.",
+  "frontend/src/pages/PaymentSuccessPage.tsx": "Payment success confirmation page with success message and navigation back to game.",
+  "frontend/src/pages/PaymentFailurePage.tsx": "Payment failure page with error message and retry/home navigation options.",
+  "frontend/src/components/PaymentSetup.tsx": "Admin-only Stripe configuration interface for setting up payment processing with secret key and allowed countries.",
+  "frontend/src/components/World3D.tsx": "3D game world component with ground plane, player character sphere, environment objects, and procedurally placed trees using React Three Fiber.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including user profiles, characters, quests, guilds, transactions, and Stripe payment integration.",
+  "frontend/src/index.css": "Global styles with fantasy RPG color system using OKLCH values featuring purple and pink gradients, custom fonts (Cinzel for headings, Inter for body), and dark theme optimized for immersive gaming experience.",
+  "frontend/tailwind.config.js": "Tailwind configuration with fantasy RPG theme including purple/pink color palette, custom fonts (Cinzel serif, Inter sans), glow shadows, and extended design tokens."
+}

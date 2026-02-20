@@ -1,0 +1,473 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-20T00:33:02.467Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 26,
+    "implemented": 8,
+    "items": [
+      {
+        "id": "REQ-1",
+        "summary": "Create character creation system with race selection (Human, Elf, Dwarf) and class selection (Warrior, Mage, Ranger) with distinct visual representations and stat modifiers",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/CharacterCreation.tsx",
+          "frontend/src/hooks/useCreateCharacter.ts",
+          "frontend/src/routes/character-creation.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-10",
+        "summary": "Implement ultimate skill system with charge meter that fills through combat actions and unleashes powerful class-specific attacks",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/UltimateMeter.tsx",
+          "frontend/src/hooks/useUltimateSystem.ts",
+          "frontend/src/components/CombatSystem.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-11",
+        "summary": "Create main storyline quest system with sequential chapters, quest tracking, objectives, and completion rewards",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/QuestLog.tsx",
+          "frontend/src/hooks/useQuests.ts",
+          "frontend/src/hooks/useCompleteQuest.ts",
+          "frontend/src/routes/quests.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-12",
+        "summary": "Build side quest system with optional missions that provide exploration incentives and additional rewards",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/SideQuestPanel.tsx",
+          "frontend/src/components/QuestLog.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-13",
+        "summary": "Implement choice-driven dialogue system where player decisions affect story outcomes, NPC relationships, and world state",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/DialogueSystem.tsx",
+          "frontend/src/hooks/useDialogue.ts",
+          "frontend/src/components/World3D.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/World3D.tsx"
+        ]
+      },
+      {
+        "id": "REQ-14",
+        "summary": "Create cooperative multiplayer mode where players can form parties to battle boss enemies together",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/PartySystem.tsx",
+          "frontend/src/hooks/useParty.ts",
+          "frontend/src/components/CombatSystem.tsx",
+          "frontend/src/routes/multiplayer.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-15",
+        "summary": "Build guild system where players can create or join guilds, view member lists, and access guild chat",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/GuildManager.tsx",
+          "frontend/src/hooks/useCreateGuild.ts",
+          "frontend/src/hooks/useJoinGuild.ts",
+          "frontend/src/hooks/useGuilds.ts",
+          "frontend/src/components/GuildChat.tsx",
+          "frontend/src/routes/guilds.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-16",
+        "summary": "Implement player-to-player trading system within guilds where members can exchange items and resources",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/TradeInterface.tsx",
+          "frontend/src/hooks/useTrade.ts",
+          "frontend/src/components/GuildManager.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-17",
+        "summary": "Create guild wars feature where guilds can challenge each other in competitive battles for rewards and rankings",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/GuildWars.tsx",
+          "frontend/src/components/WarBattleground.tsx",
+          "frontend/src/hooks/useGuildWars.ts",
+          "frontend/src/routes/guild-wars.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-18",
+        "summary": "Build resource gathering system where players can collect materials from the environment (ore, herbs, wood) during exploration",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/ResourceNode.tsx",
+          "frontend/src/hooks/useInventory.ts",
+          "frontend/src/components/World3D.tsx",
+          "frontend/src/components/InventoryPanel.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/World3D.tsx"
+        ]
+      },
+      {
+        "id": "REQ-19",
+        "summary": "Create crafting system where players can combine resources to create weapons, armor, and potions using recipes",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/CraftingStation.tsx",
+          "frontend/src/hooks/useCrafting.ts",
+          "frontend/src/routes/crafting.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-2",
+        "summary": "Implement character appearance customization interface with options for physical features, hair, skin tone, and equipment appearance",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/AppearanceCustomizer.tsx",
+          "frontend/src/components/CharacterCreation.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-20",
+        "summary": "Implement player-driven marketplace where users can list items for sale, browse listings, and purchase from other players",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/Marketplace.tsx",
+          "frontend/src/hooks/useCreateTransaction.ts",
+          "frontend/src/hooks/useTransactions.ts",
+          "frontend/src/routes/marketplace.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-21",
+        "summary": "Build in-app store for cosmetic items, battle passes, and premium membership with secure purchase flow",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/GameStore.tsx",
+          "frontend/src/components/PaymentSetup.tsx",
+          "frontend/src/hooks/useCreateCheckoutSession.ts",
+          "frontend/src/components/PaymentSuccess.tsx",
+          "frontend/src/components/PaymentFailure.tsx",
+          "frontend/src/routes/store.tsx",
+          "frontend/src/routes/payment-success.tsx",
+          "frontend/src/routes/payment-failure.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/PaymentSetup.tsx"
+        ]
+      },
+      {
+        "id": "REQ-22",
+        "summary": "Create seasonal event system that activates limited-time quests, challenges, and exclusive rewards on a schedule",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/EventCalendar.tsx",
+          "frontend/src/hooks/useEvents.ts",
+          "frontend/src/components/QuestLog.tsx",
+          "frontend/src/routes/events.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-23",
+        "summary": "Implement daily rewards system that grants players bonuses for logging in each day with streak tracking",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/DailyRewards.tsx",
+          "frontend/src/hooks/useDailyRewards.ts",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-24",
+        "summary": "Create in-app challenge system with rotating daily and weekly challenges that reward players for completing specific objectives",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/ChallengePanel.tsx",
+          "frontend/src/hooks/useChallenges.ts",
+          "frontend/src/routes/challenges.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-25",
+        "summary": "Design a fantasy RPG visual theme with medieval-inspired UI, mystical color palette (emerald greens, deep purples, gold accents), ornate borders, and atmospheric typography that evokes magic and adventure",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/index.css",
+          "frontend/tailwind.config.js",
+          "frontend/src/components/Layout.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/index.css",
+          "frontend/tailwind.config.js",
+          "frontend/src/components/Layout.tsx"
+        ]
+      },
+      {
+        "id": "REQ-26",
+        "summary": "Render all generated images (fantasy environment backgrounds, character race illustrations, class icons, UI decorative elements) as static assets from frontend/public/assets/generated directory",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/utils/imageAssets.ts"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-3",
+        "summary": "Build skill tree and ability system where players can allocate skill points and unlock class-specific abilities",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/SkillTree.tsx",
+          "frontend/src/hooks/useUpdateCharacterSkills.ts",
+          "frontend/src/routes/skill-tree.$characterId.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-4",
+        "summary": "Create 3D open world environment using React Three Fiber with diverse biomes (forest, mountain, dungeon, city) that players can explore",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/World3D.tsx",
+          "frontend/src/components/PlayerCharacter.tsx",
+          "frontend/src/components/CameraController.tsx",
+          "frontend/src/routes/game.tsx",
+          "frontend/src/routes/__root.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/World3D.tsx"
+        ]
+      },
+      {
+        "id": "REQ-5",
+        "summary": "Implement dynamic day-night cycle system that transitions between time periods and affects world lighting",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/DayNightCycle.tsx",
+          "frontend/src/hooks/useTimeOfDay.ts",
+          "frontend/src/components/World3D.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/World3D.tsx"
+        ]
+      },
+      {
+        "id": "REQ-6",
+        "summary": "Create dynamic weather system with multiple weather states (clear, rain, storm) that change environmental visuals and affect gameplay",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/WeatherSystem.tsx",
+          "frontend/src/hooks/useWeather.ts",
+          "frontend/src/components/World3D.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/World3D.tsx"
+        ]
+      },
+      {
+        "id": "REQ-7",
+        "summary": "Build real-time combat system with keyboard/touch controls for movement, basic attacks, and ability execution",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/CombatSystem.tsx",
+          "frontend/src/hooks/useCombatState.ts",
+          "frontend/src/components/World3D.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/World3D.tsx"
+        ]
+      },
+      {
+        "id": "REQ-8",
+        "summary": "Implement combo attack system where sequential attacks trigger special combo moves with enhanced effects",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/ComboCounter.tsx",
+          "frontend/src/hooks/useComboSystem.ts",
+          "frontend/src/components/CombatSystem.tsx"
+        ],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-9",
+        "summary": "Create special ability system with cooldown timers where players can activate class-specific abilities during combat",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/AbilityBar.tsx",
+          "frontend/src/hooks/useAbilities.ts",
+          "frontend/src/components/CombatSystem.tsx"
+        ],
+        "matchedFiles": []
+      }
+    ]
+  },
+  "changedFiles": [
+    "backend/authorization/MixinAuthorization.mo",
+    "backend/authorization/access-control.mo",
+    "backend/http-outcalls/outcall.mo",
+    "backend/main.mo",
+    "backend/stripe/stripe.mo",
+    "build-request.json",
+    "build-template/Dockerfile",
+    "build-template/LICENSE",
+    "build-template/README.md",
+    "build-template/deploy.sh",
+    "build-template/icp.yaml",
+    "build-template/package.json",
+    "build-template/pnpm-lock.yaml",
+    "build-template/pnpm-workspace.yaml",
+    "build-template/scripts/prune-unused-images.js",
+    "build-template/scripts/resize-images.js",
+    "build-template/src/backend/canister.yaml",
+    "build-template/src/backend/system-idl/aaaaa-aa.did",
+    "build-template/src/frontend/canister.yaml",
+    "build-template/src/frontend/components.json",
+    "build-template/src/frontend/env.json",
+    "build-template/src/frontend/eslint-rules/no-bigint-in-query-keys.js",
+    "build-template/src/frontend/eslint-rules/require-internet-identity-provider.js",
+    "build-template/src/frontend/eslint.config.js",
+    "build-template/src/frontend/package.json",
+    "build-template/src/frontend/postcss.config.js",
+    "build-template/src/frontend/src/components/ui/accordion.tsx",
+    "build-template/src/frontend/src/components/ui/alert-dialog.tsx",
+    "build-template/src/frontend/src/components/ui/alert.tsx",
+    "build-template/src/frontend/src/components/ui/aspect-ratio.tsx",
+    "build-template/src/frontend/src/components/ui/avatar.tsx",
+    "build-template/src/frontend/src/components/ui/badge.tsx",
+    "build-template/src/frontend/src/components/ui/breadcrumb.tsx",
+    "build-template/src/frontend/src/components/ui/button.tsx",
+    "build-template/src/frontend/src/components/ui/calendar.tsx",
+    "build-template/src/frontend/src/components/ui/card.tsx",
+    "build-template/src/frontend/src/components/ui/carousel.tsx",
+    "build-template/src/frontend/src/components/ui/chart.tsx",
+    "build-template/src/frontend/src/components/ui/checkbox.tsx",
+    "build-template/src/frontend/src/components/ui/collapsible.tsx",
+    "build-template/src/frontend/src/components/ui/command.tsx",
+    "build-template/src/frontend/src/components/ui/context-menu.tsx",
+    "build-template/src/frontend/src/components/ui/dialog.tsx",
+    "build-template/src/frontend/src/components/ui/drawer.tsx",
+    "build-template/src/frontend/src/components/ui/dropdown-menu.tsx",
+    "build-template/src/frontend/src/components/ui/form.tsx",
+    "build-template/src/frontend/src/components/ui/hover-card.tsx",
+    "build-template/src/frontend/src/components/ui/input-otp.tsx",
+    "build-template/src/frontend/src/components/ui/input.tsx",
+    "build-template/src/frontend/src/components/ui/label.tsx",
+    "build-template/src/frontend/src/components/ui/menubar.tsx",
+    "build-template/src/frontend/src/components/ui/navigation-menu.tsx",
+    "build-template/src/frontend/src/components/ui/pagination.tsx",
+    "build-template/src/frontend/src/components/ui/popover.tsx",
+    "build-template/src/frontend/src/components/ui/progress.tsx",
+    "build-template/src/frontend/src/components/ui/radio-group.tsx",
+    "build-template/src/frontend/src/components/ui/resizable.tsx",
+    "build-template/src/frontend/src/components/ui/scroll-area.tsx",
+    "build-template/src/frontend/src/components/ui/select.tsx",
+    "build-template/src/frontend/src/components/ui/separator.tsx",
+    "build-template/src/frontend/src/components/ui/sheet.tsx",
+    "build-template/src/frontend/src/components/ui/sidebar.tsx",
+    "build-template/src/frontend/src/components/ui/skeleton.tsx",
+    "build-template/src/frontend/src/components/ui/slider.tsx",
+    "build-template/src/frontend/src/components/ui/sonner.tsx",
+    "build-template/src/frontend/src/components/ui/switch.tsx",
+    "build-template/src/frontend/src/components/ui/table.tsx",
+    "build-template/src/frontend/src/components/ui/tabs.tsx",
+    "build-template/src/frontend/src/components/ui/textarea.tsx",
+    "build-template/src/frontend/src/components/ui/toggle-group.tsx",
+    "build-template/src/frontend/src/components/ui/toggle.tsx",
+    "build-template/src/frontend/src/components/ui/tooltip.tsx",
+    "build-template/src/frontend/src/hooks/use-mobile.tsx",
+    "build-template/src/frontend/src/lib/utils.ts",
+    "build-template/src/frontend/tsconfig.json",
+    "build-template/src/frontend/vite.config.js",
+    "build-template/tsconfig.json",
+    "caffeine.lock.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/public/assets/generated/city-bg.dim_1920x1080.png",
+    "frontend/public/assets/generated/class-mage.dim_256x256.png",
+    "frontend/public/assets/generated/class-ranger.dim_256x256.png",
+    "frontend/public/assets/generated/class-warrior.dim_256x256.png",
+    "frontend/public/assets/generated/dungeon-bg.dim_1920x1080.png",
+    "frontend/public/assets/generated/forest-bg.dim_1920x1080.png",
+    "frontend/public/assets/generated/logo.dim_800x300.png",
+    "frontend/public/assets/generated/mountain-bg.dim_1920x1080.png",
+    "frontend/public/assets/generated/race-dwarf.dim_400x400.png",
+    "frontend/public/assets/generated/race-elf.dim_400x400.png",
+    "frontend/public/assets/generated/race-human.dim_400x400.png",
+    "frontend/public/assets/generated/ui-border-ornate.dim_1200x100.png",
+    "frontend/src/App.tsx",
+    "frontend/src/backend.d.ts",
+    "frontend/src/backend.ts",
+    "frontend/src/components/Layout.tsx",
+    "frontend/src/components/PaymentSetup.tsx",
+    "frontend/src/components/ProfileSetupModal.tsx",
+    "frontend/src/components/World3D.tsx",
+    "frontend/src/config.ts",
+    "frontend/src/declarations/backend.did.d.ts",
+    "frontend/src/declarations/backend.did.js",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/src/pages/CharacterCreationPage.tsx",
+    "frontend/src/pages/CraftingPage.tsx",
+    "frontend/src/pages/GamePage.tsx",
+    "frontend/src/pages/GuildsPage.tsx",
+    "frontend/src/pages/HomePage.tsx",
+    "frontend/src/pages/MarketplacePage.tsx",
+    "frontend/src/pages/PaymentFailurePage.tsx",
+    "frontend/src/pages/PaymentSuccessPage.tsx",
+    "frontend/src/pages/QuestsPage.tsx",
+    "frontend/src/pages/StorePage.tsx",
+    "frontend/src/ui-summary.json",
+    "frontend/src/utils/StorageClient.ts",
+    "frontend/src/utils/urlParams.ts",
+    "frontend/tailwind.config.js",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

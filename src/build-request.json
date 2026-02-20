@@ -1,0 +1,529 @@
+{
+  "kind": "build_request",
+  "title": "Build Realm of Legends Action RPG",
+  "projectName": "Realm of Legends",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create character creation system with race selection (Human, Elf, Dwarf) and class selection (Warrior, Mage, Ranger) with distinct visual representations and stat modifiers",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Create unique heroes with various races (Human, Elf, Dwarf, etc.) and classes (Warrior, Mage, Ranger, etc.)"
+        ]
+      },
+      "acceptanceCriteria": [
+        "User can select from three races: Human, Elf, Dwarf",
+        "User can select from three classes: Warrior, Mage, Ranger",
+        "Each race/class combination has distinct base stats",
+        "Character data is persisted in backend"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement character appearance customization interface with options for physical features, hair, skin tone, and equipment appearance",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "In-depth character customization options including appearance, skills, and abilities"
+        ]
+      },
+      "acceptanceCriteria": [
+        "User can customize character appearance with multiple options",
+        "Appearance choices are reflected in character preview",
+        "Customization data is saved with character profile"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Build skill tree and ability system where players can allocate skill points and unlock class-specific abilities",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "In-depth character customization options including appearance, skills, and abilities"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Each class has unique skill tree with multiple branches",
+        "Players can allocate skill points to unlock abilities",
+        "Skill allocation is stored and retrievable from backend"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create 3D open world environment using React Three Fiber with diverse biomes (forest, mountain, dungeon, city) that players can explore",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "A beautifully crafted open world with diverse environments (forests, mountains, dungeons, and cities)"
+        ]
+      },
+      "acceptanceCriteria": [
+        "3D world rendered using React Three Fiber",
+        "At least four distinct environment types are visually represented",
+        "Player character can move through the world",
+        "Camera follows player movement"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Implement dynamic day-night cycle system that transitions between time periods and affects world lighting",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Dynamic weather and day-night cycle that affect gameplay and NPC interactions"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Smooth day-night transitions with realistic lighting changes",
+        "Time of day affects ambient lighting and shadows",
+        "Current time state is visible to player"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Create dynamic weather system with multiple weather states (clear, rain, storm) that change environmental visuals and affect gameplay",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Dynamic weather and day-night cycle that affect gameplay and NPC interactions"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Weather changes with visual effects (rain particles, clouds)",
+        "Weather state affects gameplay mechanics",
+        "Weather transitions are smooth and natural"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Build real-time combat system with keyboard/touch controls for movement, basic attacks, and ability execution",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Fast-paced, skill-based combat system with responsive controls"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Player can attack enemies in real-time",
+        "Combat responds to player input with minimal delay",
+        "Health and damage calculations work correctly",
+        "Combat state is synchronized with backend"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Implement combo attack system where sequential attacks trigger special combo moves with enhanced effects",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Combo moves, special abilities, and ultimate skills"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Consecutive attacks build combo counter",
+        "Combo thresholds unlock special moves",
+        "Combo counter resets after combat pause",
+        "Visual feedback shows combo state"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Create special ability system with cooldown timers where players can activate class-specific abilities during combat",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Combo moves, special abilities, and ultimate skills"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Each class has unique special abilities",
+        "Abilities have cooldown periods after use",
+        "Visual indicators show ability availability",
+        "Abilities execute correctly during combat"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Implement ultimate skill system with charge meter that fills through combat actions and unleashes powerful class-specific attacks",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Combo moves, special abilities, and ultimate skills"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Ultimate meter fills through combat actions",
+        "Ultimate skill can be activated when meter is full",
+        "Each class has unique ultimate ability",
+        "Visual effects distinguish ultimate from regular abilities"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Create main storyline quest system with sequential chapters, quest tracking, objectives, and completion rewards",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Engaging main storyline with side quests that provide depth and encourage exploration"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Main quest line progresses through multiple chapters",
+        "Quest objectives are clearly displayed",
+        "Quest progress is tracked and persisted",
+        "Completing quests grants rewards"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Build side quest system with optional missions that provide exploration incentives and additional rewards",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Engaging main storyline with side quests that provide depth and encourage exploration"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Side quests are discoverable in different locations",
+        "Side quests are independent from main storyline",
+        "Side quest completion grants rewards",
+        "Players can track multiple active side quests"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Implement choice-driven dialogue system where player decisions affect story outcomes, NPC relationships, and world state",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Choices that impact the world and character relationships"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Players can choose between multiple dialogue options",
+        "Choices alter subsequent story events",
+        "NPC attitudes change based on player choices",
+        "Choice consequences are persistent"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Create cooperative multiplayer mode where players can form parties to battle boss enemies together",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Cooperative multiplayer mode for teaming up with friends to tackle tough bosses"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Players can invite others to form party",
+        "Party members appear in same combat instance",
+        "Boss encounters scale for multiple players",
+        "Rewards are distributed to all party members"
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "Build guild system where players can create or join guilds, view member lists, and access guild chat",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Guild system for players to join forces, trade, and participate in guild wars"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Players can create new guilds",
+        "Players can search and join existing guilds",
+        "Guild member roster is visible",
+        "Guild chat functionality works for all members"
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "text": "Implement player-to-player trading system within guilds where members can exchange items and resources",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Guild system for players to join forces, trade, and participate in guild wars"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Guild members can initiate trades with each other",
+        "Trade interface shows items being exchanged",
+        "Both parties must confirm before trade completes",
+        "Trade history is logged"
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "text": "Create guild wars feature where guilds can challenge each other in competitive battles for rewards and rankings",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Guild system for players to join forces, trade, and participate in guild wars"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Guilds can declare war on other guilds",
+        "Guild war battleground exists with win conditions",
+        "Guild rankings update based on war outcomes",
+        "Winning guild receives rewards"
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "text": "Build resource gathering system where players can collect materials from the environment (ore, herbs, wood) during exploration",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Resource gathering and crafting system to create weapons, armor, and potions"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Resource nodes spawn in appropriate environments",
+        "Players can interact with nodes to gather resources",
+        "Resources are added to player inventory",
+        "Resource quantities are tracked"
+      ]
+    },
+    {
+      "id": "REQ-19",
+      "text": "Create crafting system where players can combine resources to create weapons, armor, and potions using recipes",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Resource gathering and crafting system to create weapons, armor, and potions"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Crafting interface displays available recipes",
+        "Players can select recipe and see required materials",
+        "Crafting consumes resources and produces items",
+        "Crafted items appear in player inventory"
+      ]
+    },
+    {
+      "id": "REQ-20",
+      "text": "Implement player-driven marketplace where users can list items for sale, browse listings, and purchase from other players",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Player-driven economy with trading features among players"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Players can list items with set prices",
+        "Marketplace displays all active listings",
+        "Players can search and filter marketplace",
+        "Purchase transactions complete correctly"
+      ]
+    },
+    {
+      "id": "REQ-21",
+      "text": "Build in-app store for cosmetic items, battle passes, and premium membership with secure purchase flow",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Free-to-play model with in-app purchases for cosmetic items, battle passes, and exclusive content"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Store displays available cosmetic items",
+        "Battle pass tiers and rewards are visible",
+        "Premium membership benefits are clearly shown",
+        "Purchase flow integrates with Internet Identity"
+      ]
+    },
+    {
+      "id": "REQ-22",
+      "text": "Create seasonal event system that activates limited-time quests, challenges, and exclusive rewards on a schedule",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Seasonal events and updates to introduce new content, quests, and characters"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Events activate during specified time periods",
+        "Event-specific quests appear during active events",
+        "Event rewards are unique to that season",
+        "Event status is visible in UI"
+      ]
+    },
+    {
+      "id": "REQ-23",
+      "text": "Implement daily rewards system that grants players bonuses for logging in each day with streak tracking",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Daily rewards and loyalty programs to retain players"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Players receive rewards upon daily login",
+        "Login streak counter increments each consecutive day",
+        "Reward quality increases with streak length",
+        "Streak resets if player misses a day"
+      ]
+    },
+    {
+      "id": "REQ-24",
+      "text": "Create in-app challenge system with rotating daily and weekly challenges that reward players for completing specific objectives",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "In-app events and challenges to encourage regular play"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Daily challenges refresh every 24 hours",
+        "Weekly challenges refresh every 7 days",
+        "Challenge progress is tracked in real-time",
+        "Completed challenges grant rewards automatically"
+      ]
+    },
+    {
+      "id": "REQ-25",
+      "text": "Design a fantasy RPG visual theme with medieval-inspired UI, mystical color palette (emerald greens, deep purples, gold accents), ornate borders, and atmospheric typography that evokes magic and adventure",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "UI components use consistent fantasy RPG aesthetic",
+        "Color scheme reflects magical and heroic themes",
+        "Typography is legible and thematically appropriate",
+        "Layout supports immersive gaming experience"
+      ]
+    },
+    {
+      "id": "REQ-26",
+      "text": "Render all generated images (fantasy environment backgrounds, character race illustrations, class icons, UI decorative elements) as static assets from frontend/public/assets/generated directory",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All generated images load from public assets folder",
+        "Images are optimized for web display",
+        "Fallback handling exists for missing images"
+      ]
+    }
+  ],
+  "constraints": [
+    "Must use Motoko for backend with single-actor architecture",
+    "Must use React with TypeScript for frontend",
+    "Must use React Three Fiber for 3D world rendering",
+    "Must use Internet Identity for authentication",
+    "Cannot implement real-time WebSocket features",
+    "Cannot integrate third-party social media APIs",
+    "Cannot use external databases or cloud providers",
+    "All multiplayer features must work within Internet Computer constraints"
+  ],
+  "nonGoals": [
+    "Integration with external social media platforms for marketing",
+    "Real-time voice chat between players",
+    "GPS-based location features",
+    "Push notifications to mobile devices",
+    "Email marketing campaigns",
+    "Integration with external payment processors beyond Stripe",
+    "Mobile app store deployment and optimization",
+    "Beta testing program infrastructure",
+    "Influencer partnership management system"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Fantasy forest environment background with mystical trees and glowing flora (forest-bg.dim_1920x1080.png)",
+      "Mountain landscape background with snow-capped peaks and dramatic sky (mountain-bg.dim_1920x1080.png)",
+      "Dark dungeon interior background with torches and stone walls (dungeon-bg.dim_1920x1080.png)",
+      "Medieval fantasy city background with towers and marketplaces (city-bg.dim_1920x1080.png)",
+      "Human character race illustration showing typical features (race-human.dim_400x400.png)",
+      "Elf character race illustration with pointed ears and elegant features (race-elf.dim_400x400.png)",
+      "Dwarf character race illustration with stocky build and beard (race-dwarf.dim_400x400.png)",
+      "Warrior class icon with sword and shield symbol (class-warrior.dim_256x256.png)",
+      "Mage class icon with staff and magical aura (class-mage.dim_256x256.png)",
+      "Ranger class icon with bow and arrow (class-ranger.dim_256x256.png)",
+      "Ornate fantasy UI border decoration with Celtic knot pattern (ui-border-ornate.dim_1200x100.png)",
+      "Game logo with 'Realm of Legends' text in medieval fantasy style (logo.dim_800x300.png)"
+    ],
+    "edits": []
+  }
+}

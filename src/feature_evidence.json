@@ -1,0 +1,175 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-3d-open-world-environment-using-react-three-fiber-with-diverse-biomes-forest-mountain-dungeon-city-that-players-can-explore",
+      "featureTitle": "Create 3D open world environment using React Three Fiber with diverse biomes (forest, mountain, dungeon, city) that players can explore",
+      "files": [
+        "frontend/src/components/World3D.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-dynamic-day-night-cycle-system-that-transitions-between-time-periods-and-affects-world-lighting",
+      "featureTitle": "Implement dynamic day-night cycle system that transitions between time periods and affects world lighting",
+      "files": [
+        "frontend/src/components/World3D.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-dynamic-weather-system-with-multiple-weather-states-clear-rain-storm-that-change-environmental-visuals-and-affect-gameplay",
+      "featureTitle": "Create dynamic weather system with multiple weather states (clear, rain, storm) that change environmental visuals and affect gameplay",
+      "files": [
+        "frontend/src/components/World3D.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-real-time-combat-system-with-keyboard-touch-controls-for-movement-basic-attacks-and-ability-execution",
+      "featureTitle": "Build real-time combat system with keyboard/touch controls for movement, basic attacks, and ability execution",
+      "files": [
+        "frontend/src/components/World3D.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-choice-driven-dialogue-system-where-player-decisions-affect-story-outcomes-npc-relationships-and-world-state",
+      "featureTitle": "Implement choice-driven dialogue system where player decisions affect story outcomes, NPC relationships, and world state",
+      "files": [
+        "frontend/src/components/World3D.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-resource-gathering-system-where-players-can-collect-materials-from-the-environment-ore-herbs-wood-during-exploration",
+      "featureTitle": "Build resource gathering system where players can collect materials from the environment (ore, herbs, wood) during exploration",
+      "files": [
+        "frontend/src/components/World3D.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0"
+      ],
+      "testIds": [
+        "REQ-18"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-in-app-store-for-cosmetic-items-battle-passes-and-premium-membership-with-secure-purchase-flow",
+      "featureTitle": "Build in-app store for cosmetic items, battle passes, and premium membership with secure purchase flow",
+      "files": [
+        "frontend/src/components/PaymentSetup.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0"
+      ],
+      "testIds": [
+        "REQ-21"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-design-a-fantasy-rpg-visual-theme-with-medieval-inspired-ui-mystical-color-palette-emerald-greens-deep-purples-gold-accents-ornate-borders-and-atmospheric-typography-that-evokes-magic-and-adventure",
+      "featureTitle": "Design a fantasy RPG visual theme with medieval-inspired UI, mystical color palette (emerald greens, deep purples, gold accents), ornate borders, and atmospheric typography that evokes magic and adventure",
+      "files": [
+        "frontend/src/components/Layout.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0"
+      ],
+      "testIds": [
+        "REQ-25"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

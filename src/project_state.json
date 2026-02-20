@@ -1,0 +1,278 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Mobile action RPG 'Realm of Legends' with character customization, open world exploration, real-time combat, quests, multiplayer features, crafting system, and free-to-play monetization",
+  "architectural_notes": [
+    "Mobile platform targeting iOS and Android",
+    "Action RPG genre with real-time combat mechanics",
+    "Target audience: ages 12+, casual to hardcore gamers",
+    "Fantasy setting with magic, mythical creatures, and ancient prophecies"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Fantasy forest environment background with mystical trees and glowing flora (forest-bg.dim_1920x1080.png)\n- Mountain landscape background with snow-capped peaks and dramatic sky (mountain-bg.dim_1920x1080.png)\n- Dark dungeon interior background with torches and stone walls (dungeon-bg.dim_1920x1080.png)\n- Medieval fantasy city background with towers and marketplaces (city-bg.dim_1920x1080.png)\n- Human character race illustration showing typical features (race-human.dim_400x400.png)\n- Elf character race illustration with pointed ears and elegant features (race-elf.dim_400x400.png)\n- Dwarf character race illustration with stocky build and beard (race-dwarf.dim_400x400.png)\n- Warrior class icon with sword and shield symbol (class-warrior.dim_256x256.png)\n- Mage class icon with staff and magical aura (class-mage.dim_256x256.png)\n- Ranger class icon with bow and arrow (class-ranger.dim_256x256.png)\n- Ornate fantasy UI border decoration with Celtic knot pattern (ui-border-ornate.dim_1200x100.png)\n- Game logo with 'Realm of Legends' text in medieval fantasy style (logo.dim_800x300.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-3d-open-world-environment-using-react-three-fiber-with-diverse-biomes-forest-mountain-dungeon-city-that-players-can-explore",
+      "title": "Create 3D open world environment using React Three Fiber with diverse biomes (forest, mountain, dungeon, city) that players can explore",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-dynamic-day-night-cycle-system-that-transitions-between-time-periods-and-affects-world-lighting",
+      "title": "Implement dynamic day-night cycle system that transitions between time periods and affects world lighting",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-dynamic-weather-system-with-multiple-weather-states-clear-rain-storm-that-change-environmental-visuals-and-affect-gameplay",
+      "title": "Create dynamic weather system with multiple weather states (clear, rain, storm) that change environmental visuals and affect gameplay",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-real-time-combat-system-with-keyboard-touch-controls-for-movement-basic-attacks-and-ability-execution",
+      "title": "Build real-time combat system with keyboard/touch controls for movement, basic attacks, and ability execution",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-choice-driven-dialogue-system-where-player-decisions-affect-story-outcomes-npc-relationships-and-world-state",
+      "title": "Implement choice-driven dialogue system where player decisions affect story outcomes, NPC relationships, and world state",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-resource-gathering-system-where-players-can-collect-materials-from-the-environment-ore-herbs-wood-during-exploration",
+      "title": "Build resource gathering system where players can collect materials from the environment (ore, herbs, wood) during exploration",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-in-app-store-for-cosmetic-items-battle-passes-and-premium-membership-with-secure-purchase-flow",
+      "title": "Build in-app store for cosmetic items, battle passes, and premium membership with secure purchase flow",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-fantasy-rpg-visual-theme-with-medieval-inspired-ui-mystical-color-palette-emerald-greens-deep-purples-gold-accents-ornate-borders-and-atmospheric-typography-that-evokes-magic-and-adventure",
+      "title": "Design a fantasy RPG visual theme with medieval-inspired UI, mystical color palette (emerald greens, deep purples, gold accents), ornate borders, and atmospheric typography that evokes magic and adventure",
+      "reqIds": [
+        "REQ-25"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Character creation with race (Human, Elf, Dwarf) and class (Warrior, Mage, Ranger) selection plus appearance/skills customization",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Open world with diverse environments (forests, mountains, dungeons, cities) and dynamic weather/day-night cycle",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Real-time combat system with combos, special abilities, and ultimate skills",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Main storyline with side quests and player choices that impact world and NPC relationships",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Cooperative multiplayer mode for boss battles and guild system with trading and guild wars",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Resource gathering, crafting system for weapons/armor/potions, and player-driven economy with trading",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Free-to-play monetization with in-app purchases for cosmetics, battle passes, and premium membership",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Seasonal events, daily rewards, and in-app challenges for player engagement",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Create character creation system with race selection (Human, Elf, Dwarf) and class selection (Warrior, Mage, Ranger) with distinct visual representations and stat modifiers",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Implement character appearance customization interface with options for physical features, hair, skin tone, and equipment appearance",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Build skill tree and ability system where players can allocate skill points and unlock class-specific abilities",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-16",
+      "summary": "Implement combo attack system where sequential attacks trigger special combo moves with enhanced effects",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-17",
+      "summary": "Create special ability system with cooldown timers where players can activate class-specific abilities during combat",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-18",
+      "summary": "Implement ultimate skill system with charge meter that fills through combat actions and unleashes powerful class-specific attacks",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-19",
+      "summary": "Create main storyline quest system with sequential chapters, quest tracking, objectives, and completion rewards",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-20",
+      "summary": "Build side quest system with optional missions that provide exploration incentives and additional rewards",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-22",
+      "summary": "Create cooperative multiplayer mode where players can form parties to battle boss enemies together",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-23",
+      "summary": "Build guild system where players can create or join guilds, view member lists, and access guild chat",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-24",
+      "summary": "Implement player-to-player trading system within guilds where members can exchange items and resources",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-25",
+      "summary": "Create guild wars feature where guilds can challenge each other in competitive battles for rewards and rankings",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-27",
+      "summary": "Create crafting system where players can combine resources to create weapons, armor, and potions using recipes",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-28",
+      "summary": "Implement player-driven marketplace where users can list items for sale, browse listings, and purchase from other players",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-30",
+      "summary": "Create seasonal event system that activates limited-time quests, challenges, and exclusive rewards on a schedule",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-31",
+      "summary": "Implement daily rewards system that grants players bonuses for logging in each day with streak tracking",
+      "reqIds": [
+        "REQ-23"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-32",
+      "summary": "Create in-app challenge system with rotating daily and weekly challenges that reward players for completing specific objectives",
+      "reqIds": [
+        "REQ-24"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-34",
+      "summary": "Render all generated images (fantasy environment backgrounds, character race illustrations, class icons, UI decorative elements) as static assets from frontend/public/assets/generated directory",
+      "reqIds": [
+        "REQ-26"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "3d",
+  "projectName": "Realm of Legends",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
